@@ -15,6 +15,7 @@ header img{
 
 h1{
   text-align: center;
+  margin: 10px;
 }
 
 
@@ -63,9 +64,72 @@ main {
   text-align: center;
   flex-direction: column;
   gap: 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
 }
 
 h4{
   color: blueviolet;
 }
 
+.par{
+  text-align: center;
+  padding: 10px;
+}
+
+
+.skvidvardp{
+  width: 100%;
+  object-fit: contain;
+  border-color: gray;
+  border-radius: 20px;
+}
+
+.tiles2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+  
+}
+
+
+h2{
+  margin: 10px;
+  text-align: center;
+}
+
+img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.parag{
+  margin: 8px;
+  margin-bottom: 10px;
+}
+
+.Skv{
+  color: orange;
+}
+
+.Ptr{
+  color: blueviolet;
+}
+
+.Ptrd{
+  border: 1px solid gray;
+  border-radius: 40px;
+  
+}
+
+.Skvd{
+  border: 1px solid gray;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
+.paragraf{
+  text-align: center;
+}
