@@ -2,6 +2,26 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: my;
+  src: url(images/шрифт.ttf);
+}
+
+body {
+  font-family: my;
+}
+.body1 {
+  background-image: url(https://i.pinimg.com/564x/a9/e3/f3/a9e3f39b9019064728f0155c61cc5864.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body2{
+  background-image: url(https://i.pinimg.com/564x/f7/4a/b1/f74ab1e7a0cc209e0726d103dee996e6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header{
   display: flex;
   justify-content: space-between;
@@ -66,6 +86,7 @@ main {
   gap: 25px;
   border: 1px solid grey;
   border-radius: 10px;
+  padding: 10px;
 }
 
 h4{
@@ -115,21 +136,64 @@ img{
 }
 
 .Ptr{
-  color: blueviolet;
+  color: red;
 }
 
 .Ptrd{
-  border: 1px solid gray;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.295);
+  border-bottom: 4px solid palevioletred;
   border-radius: 40px;
   
 }
 
 .Skvd{
-  border: 1px solid gray;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.295);
   border-radius: 40px;
   margin-bottom: 20px;
+  border-bottom: 4px solid cornflowerblue;
+  padding: 25px;
 }
 
 .paragraf{
   text-align: center;
+  line-height: 2rem;
+  backdrop-filter: blur(5px);
+}
+
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header a{
+  text-decoration: none;
+  color: indianred;
+}
+
+footer a{
+  text-decoration: none;
+  color: indianred;
+}
+
+@media all and (max-width: 800px) {
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  .tiles2{
+    grid-template-columns: 1fr;
+  }
+  .links {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .links i{
+    flex-basis: 30%;
+    text-align: center;
+  }
+  span{
+    margin: 0.5rem;
+  }
+  .tiles{
+    grid-template-columns: 1fr;
+  }
 }
