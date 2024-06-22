@@ -65,6 +65,7 @@ footer {
 .bob{
   height: 200px;
   text-align: center;
+  border-radius: 10px;
 }
 
 main {
@@ -196,4 +197,38 @@ footer a{
   .tiles{
     grid-template-columns: 1fr;
   }
+}
+
+.bm {
+  animation: hinge;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.links a:hover {
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.skvidvardp{
+  animation: rubberBand;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.Ptrd1{
+  animation: rubberBand;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.item{
+  backdrop-filter: blur(5px);
+}
+
+.bob{
+  animation: rubberBand;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
